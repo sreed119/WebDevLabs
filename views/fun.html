@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Stephanie Reed">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Stephanie Reed professional website">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="../static/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <title>Stephanie Reed</title>
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webname">Stephanie Reed</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="../index.html">Home</a>
+            <a href="CV.html">CV</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="fun.html" class="active">For Fun</a>
+            <a href="javascript:void(0);" class="icon" >
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="mainFun">
+        <div id="item1">
+            <h2>Things I love to do for fun</h2>
+            <!-- <button id="SeeMoreBTN" onclick="showList()">Click to see...</button> -->
+            <ul id="FavList">
+                <li>Sing in choir</li>
+                <li>Play Splatoon</li>
+                <li>Make pasta</li>
+                <li>Programming robots</li>
+            </ul>
+        </div>
+        <div id="item2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4Ql6YwCTAko?si=Was1QHLFMYM9_G4F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="item3">
+            <h3>My Favorite Places</h3>
+            <div id="map"></div>
+            <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=124%20Oakland%20Ave+(Tsaocaa)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        </div>
+        <div id="item4">
+            <img src="../static/funIMG.jpg" alt="" id="funIMG">
+        </div>
+    </div>
+    <footer>
+        <p id="copyYear">Stephanie Reed &copy; </p>
+    </footer>
+    
+</body>
+</html>

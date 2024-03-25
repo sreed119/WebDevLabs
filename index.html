@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Stephanie Reed">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Stephanie Reed professional website">
+    <link rel="stylesheet" href="static/style.css">
+    <script defer src="static/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Stephanie Reed</title>
+</head>
+<body onload="addYear()">
+    <header>
+        <h1 id="webname">Stephanie Reed</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="views/CV.html">CV</a>
+            <a href="views/contact.html">Contact Me</a>
+            <a href="views/fun.html">For Fun</a>
+            <a href="javascript:void(0);" class="icon" >
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2 id="greeting"></h2>
+        <img src="static/photo_of_me.png" alt="Stephanie Reed profile image" width="350px" class="classA">
+        <div class="classA">
+        <!-- <p id="intro">I am a first-year student at Carnegie Mellon University majoring in Information Systems. My academic and career focus is software engineering. I am proficient in both Java and Python, which I have been using for 5 years. Additionally, I have experience using Firebase for web development for an independent project, and for CMU’s hackathon, Tartan Hacks. I am also a part of Carnegie Mellon’s largest singing group, C#. I attended The Nightingale-Bamford School for my high school education. My focus during my time at Nightingale was on web development, so I took many computer science courses there. This includes Programming Interactive Graphics, where I designed and programmed a minigame as my final project. I was also a member of Nightingael’s auditioned Chamber Chorus, which performed at various events and received a Gold with Distinction award from the New York State School Music Association. In my senior year of high school, I was captain of Nightingale’s robotics team: Nighthawk Robotics. During that season, Nighthawk Robotics received the Think Award at the New York City Championships, as well as Winning Alliance Captain at the NYC Qualifier and Finalist Alliance Captain at the NYC Super Qualifier. Web development and robotics have always been my passion, so I am pursuing a career in software engineering. </p> -->
+        <span id="shortIntro">I am a first-year student at Carnegie Mellon University majoring in Information Systems. My academic and career focus is software engineering. I am proficient in both Java and Python, which I have been using for 5 years. Additionally, I have experience using Firebase for web development for an independent project, and for CMU’s hackathon, Tartan Hacks. I am also a part of Carnegie Mellon’s largest singing group, C#. I attended The Nightingale-Bamford School for my high school education. My focus during my time at Nightingale was on web development, so I took many computer science courses there. This includes Programming Interactive Graphics, where I designed and programmed a minigame as my final project. </span>
+        <span id="readMore">read more...</span>
+        <span id="longIntro">I was also a member of Nightingael’s auditioned Chamber Chorus, which performed at various events and received a Gold with Distinction award from the New York State School Music Association. In my senior year of high school, I was captain of Nightingale’s robotics team: Nighthawk Robotics. During that season, Nighthawk Robotics received the Think Award at the New York City Championships, as well as Winning Alliance Captain at the NYC Qualifier and Finalist Alliance Captain at the NYC Super Qualifier. Web development and robotics have always been my passion, so I am pursuing a career in software engineering. </span>
+        <span id="readLess">read less</span>
+        </div>
+    </div>
+    <footer>
+        <p id="copyYear">Stephanie Reed &copy; </p>
+    </footer>
+    
+</body>
+</html>
