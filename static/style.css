@@ -23,7 +23,7 @@ nav a.icon {
 
 @font-face {
     font-family: MyFont;
-    src: url(static/Titillium_Web/TitilliumWeb-Regular.ttf);
+    src: url(../static/Titillium_Web/TitilliumWeb-Regular.ttf);
 }
 
 * {
